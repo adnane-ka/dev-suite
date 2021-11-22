@@ -10,7 +10,7 @@ use App\Models\Sample;
 
 class SampleTest extends TestCase
 {
-    /** the data used to send POST requests */ 
+    /** the data used to send POST/PATCH requests */ 
     protected $data = [
         'title' => 'Example of sample title',
     ];

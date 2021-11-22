@@ -4,13 +4,13 @@ in this repository i've collected these files samples, so i can get rid of repea
 
 
 ## Available sample files 
-- [A Model file](app/models/Sample.php)
+- [A Model file](app/Models/Sample.php)
 - [A Controller file (Note that this class extends the base controller for the API)](app/Http/Controllers/Api/SampleController.php)
 - [A Base Base Controller file](app/Http/Controllers/ApiController.php)
 - [A Request file (Note that this class extends the base form request)](app/Http/Requests/SampleRequest.php)
 - [A Base Form Request file](app/Http/Requests/CustomFormRequest.php)
-- [API v1 Routes(Routes are loaded from the RouteServiceProvider class)](Routes/Api/V1.php)
-- [A Feature Test File](Test/Feature/SampleTest.php) 
+- [API v1 Routes(Routes are loaded from the RouteServiceProvider class)](routes/api/v1.php)
+- [A Feature Test File](tests/Feature/SampleTest.php) 
 
 ## Requirements
 Basically, you'll need -besides Laravel 8.x requirements- to activate pdo_sqlite extension in your php configuration file if you're running your application in windows OS and install it if you're doing that in linux OS. 
