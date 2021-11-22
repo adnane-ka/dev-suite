@@ -1,4 +1,4 @@
-Concerning Laravel. I found myself repeating a very basic form of code each time i begin a new project. in which the whole application's pieces are developed from a sample of each piece. eg:each one of the Models, Controllers, Routes, Test suits, Requests and so on follow a certain manner of writing code.
+Concerning Laravel. I found myself repeating a very basic form of code each time i begin a new REST API. in which the whole Interface's pieces are developed from a sample of each piece. eg:each one of the Models, Controllers, Routes, Test suits, Requests and so on follow a certain manner of writing code.
 
 in this repository i've collected these files samples, so i can get rid of repeating them each time in each project. and since i love to share code with others, i decided to share that repository with you! i hope you can find it useful.  
 
