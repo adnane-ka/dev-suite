@@ -37,5 +37,5 @@ php artisan migrate
 Since everything is based on use cases, i love to let tests run and control the application. so to make sure that everything works well just run phpunit.
 
 ```
-vendor/bin/phpunit.xml
+vendor/bin/phpunit
 ```
