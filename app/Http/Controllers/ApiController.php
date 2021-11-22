@@ -23,7 +23,7 @@ class ApiController extends BaseController
     }
     
     /** 
-     * shows a resource of resources
+     * shows one resource
      * 
      * @param $one
      * @return json 

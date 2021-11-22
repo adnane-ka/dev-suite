@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use App\Http\Requests\CustomFormRequest;
 use Illuminate\Foundation\Http\FormRequest;
 
-class SampleRequest extends FormRequest
+class SampleRequest extends CustomFormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -27,10 +27,5 @@ class SampleRequest extends FormRequest
         return [
             'title' => 'required',
         ];
-    }
-
-    public function wantsJson()
-    {
-        return true;
     }
 }
